@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_grid"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Grid"/>
+    <item
+        android:id="@+id/nav_cast"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Casting"/>
+  <!--  <item
+        android:id="@+id/nav_clipboard"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Clipboard"/>-->
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Settings"/>
+</menu>

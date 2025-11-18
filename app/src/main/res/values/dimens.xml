@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="default_pill_stroke_width">2dp</dimen>
+</resources>

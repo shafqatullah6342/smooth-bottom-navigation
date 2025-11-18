@@ -1,0 +1,49 @@
+# Specifies files to be ignored by Git for Android projects.
+# This file helps keep your repository clean by excluding build artifacts,
+# IDE-specific files, and other generated content that shouldn't be versioned.
+
+### Android Studio / IntelliJ IDEA ###
+.idea/                  # IntelliJ IDEA project files (contains user-specific settings)
+*.iml                   # IntelliJ IDEA module files
+*.ipr                   # IntelliJ IDEA project file (older format)
+*.iws                   # IntelliJ IDEA workspace file (older format)
+captures/               # Performance monitor captures
+.cxx/                   # NDK build output (e.g., CMake build intermediates)
+
+### Gradle ###
+.gradle/                # Gradle wrapper and other Gradle files (caches, etc.)
+/build/                 # All compiled output, intermediate files, APKs, etc.
+local.properties        # User-specific SDK paths and other local settings
+*.log                   # Log files
+*.apk                   # Compiled APKs
+*.aab                   # Android App Bundles
+*.aar                   # Android Archive (if generated locally)
+/src/androidTest/assets/ # Assets generated during instrumentation tests
+
+# Used by the Gradle build system to run annotation processors
+.apt_generated/
+
+### Keystore files ###
+*.jks                   # Java Keystore files (CRITICAL to ignore production signing keys)
+*.keystore              # Generic keystore files (CRITICAL to ignore production signing keys)
+# debug.keystore          # Uncomment this line if you also want to ignore debug.keystore.
+                        # It's generally harmless to commit debug.keystore as it's not for production.
+
+### Native Development (NDK) ###
+/obj/                   # Native object files
+/libs/                  # Generated native libraries (e.g., .so files, if not committed explicitly)
+*.so                    # Compiled shared libraries (if not committed explicitly)
+
+### Miscellaneous ###
+.DS_Store               # macOS specific file
+Thumbs.db               # Windows specific file
+ehthumbs.db             # Windows specific file
+.directory              # Linux specific file (KDE)
+*.orig                  # Files created by merge tools during conflicts
+*.bak                   # Common backup file extension
+
+# If you store sensitive information (like API keys) directly in a Gradle properties file,
+# you might want to ignore specific local versions, but typically these should be
+# handled via environment variables or a secure configuration management system.
+# Example:
+# secure.properties

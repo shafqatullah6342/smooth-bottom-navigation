@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CustomBottomNavigation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- res/values/themes.xml or res/values/styles.xml -->
+    <style name="Theme.CustomBottomNavigation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- ... other attributes ... -->
+        <item name="android:windowIsTranslucent">true</item> <!-- Or false if you want to control the background entirely -->
+        <item name="android:windowBackground">#C1C1C1</item> <!-- This is key -->
+    </style>
+
+</resources>

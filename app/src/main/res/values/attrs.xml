@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="CustomBottomNavigationView">
+        <attr name="pillStrokeWidth" format="dimension" />
+        <attr name="pillStrokeColor" format="color" />
+        <attr name="pillBackgroundColor" format="color" />
+        <attr name="menu" format="reference" />
+        <attr name="rippleColor" format="color" />
+        <attr name="defaultSelected" format="integer" />
+        <attr name="pillCornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>
